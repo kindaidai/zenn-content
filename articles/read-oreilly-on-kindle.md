@@ -20,6 +20,11 @@ https://www.oreilly.co.jp/index.shtml
 購入すると、epubとpdfの形式でダウンロードすることができます。
 
 # epubをKindle appで読めるようにする
+:::message
+2024/01/07 追記
+現在は、Webから[Send to Kindle](https://www.amazon.co.jp/sendtokindle)ができるようになっています。
+:::
+
 Send to Kindleで受け付けている形式でepubがないことから、epub を Kindle app で読めるようにするためには、Kindle 形式にする必要があります。
 ここでは、mobiファイルを用意します。
 https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=G5WYD9SAF7PGXRNA
@@ -32,6 +37,11 @@ https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=G5WYD9SAF7PGXRNA
 [本を開く]でepubファイルを選択 > ファイル > エクスポート > ファイル形式で[本(.mobi)]を選択し、任意の場所に保存します。
 
 ### Kindle for Mac
+:::message alert
+2024/01/07 追記
+以下の情報は、現在のKindle for Macが出る前のkindle(Kindle Classic) の情報です。素直にSend to Kindleをお使いください
+:::
+
 Kindle for Macでは、app内でダウンロードしたkindle書籍は、以下のディレクトリに保存されます。
 ```shell
 $ ls -la ~/Library/Application\ Support/Kindle/My\ Kindle\ Content/
